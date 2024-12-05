@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretório de dependências
+node_modules/
+
+# Diretório de pacotes
+*.tgz
+
+# Compilações e pacotes de produção
+dist/
+build/
+
+# Ambiente
+.env
+.env.test
+.env.production
+
+# Cache de módulos
+.cache/
+.parcel-cache/
+
+# Cache de ESLint
+.eslintcache
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Testes de saída de cobertura
+coverage/
+
+# Configuração de controle de versão do TypeScript
+*.tsbuildinfo
+
+# Logs de PM2 (gerenciamento de processos)
+pids
+*.pid
+*.seed
+
+# Arquivos de lock (somente inclua o gerenciador que você usa)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de lint-staged
+lint-staged.config.js
+
+# Arquivos de depuração
+npm-debug.log
