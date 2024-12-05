@@ -59,3 +59,4 @@ lint-staged.config.js
 
 # Arquivos de depuração
 npm-debug.log
+.vercel
