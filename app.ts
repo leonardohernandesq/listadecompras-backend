@@ -23,4 +23,3 @@ app.listen(port, () => {
     console.log(`Rodando na porta ${port}`);
 });
 
-export default app
