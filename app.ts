@@ -19,4 +19,7 @@ app.use(cors({
 
 app.use(router);
 
-export default app
+app.listen(port, () => {
+    console.log(`Rodando na porta ${port}`);
+});
+
