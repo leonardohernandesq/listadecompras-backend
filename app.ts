@@ -1,10 +1,8 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import router from "./routes/Router";
-import "./config/db";
-
-const port = process.env.PORT || 3000;
+import router from "./routes/Router";  // Roteamento
+import "./config/db";  // Conexão com o banco
 
 const app = express();
 
@@ -16,9 +14,7 @@ app.use(cors({
     origin: "*"
 }));
 
-
 app.use(router);
 
-app.listen(port, () => {
-    console.log(`Rodando na porta ${port}`);
-});
+// Não usamos app.listen no Vercel, em vez disso, exportamos o app.
+export default app;
