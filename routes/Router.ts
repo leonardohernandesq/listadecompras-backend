@@ -11,7 +11,7 @@ router.use("/api/item", ShoppingItemRoutes);
 router.use("/api/list", ShoppingListRoutes);
 router.use("/api/category", CategoryRoutes);
 
-router.get("/", (req: Request, res: Response) => {
+router.get("/api", (req: Request, res: Response) => {
     res.send("API Working");
 });
 
